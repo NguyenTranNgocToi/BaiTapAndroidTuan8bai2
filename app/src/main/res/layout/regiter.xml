@@ -40,7 +40,7 @@
         app:srcCompat="@drawable/happy" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/ed_regiter_name"
         android:layout_width="304dp"
         android:layout_height="51dp"
         android:layout_marginTop="52dp"
@@ -53,54 +53,54 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/ed_regiter_mail"
         android:layout_width="304dp"
         android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/ed_regiter_name"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/ed_regiter_name"
+        app:layout_constraintTop_toBottomOf="@+id/ed_regiter_name" />
 
     <EditText
-        android:id="@+id/editTextTextPasswor1"
+        android:id="@+id/ed_regiter_pass1"
         android:layout_width="304dp"
         android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Type password"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="@+id/ed_regiter_mail"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintStart_toStartOf="@+id/ed_regiter_mail"
+        app:layout_constraintTop_toBottomOf="@+id/ed_regiter_mail" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/ed_regiter_pass2"
         android:layout_width="304dp"
         android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Type password"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPasswor1"
+        app:layout_constraintEnd_toEndOf="@+id/ed_regiter_pass1"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPasswor1"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPasswor1"
+        app:layout_constraintStart_toStartOf="@+id/ed_regiter_pass1"
+        app:layout_constraintTop_toBottomOf="@+id/ed_regiter_pass1"
         />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_regiter_regiter"
         android:layout_width="304dp"
         android:layout_height="51dp"
         android:text="REGISTER"
         android:textColor="#ffffff"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toEndOf="@+id/ed_regiter_pass2"
+        app:layout_constraintStart_toStartOf="@+id/ed_regiter_pass2"
+        app:layout_constraintTop_toBottomOf="@+id/ed_regiter_pass2"
         android:background="@drawable/signin"/>
 
     <TextView
@@ -111,10 +111,10 @@
         android:drawableLeft="@drawable/google"
         android:text="REGISTER WITH GOOGLE"
         android:textColor="#692D58F3 "
-        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_regiter_regiter"
         app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintStart_toStartOf="@+id/btn_regiter_regiter"
+        app:layout_constraintTop_toBottomOf="@+id/btn_regiter_regiter" />
 
     <TextView
         android:id="@+id/textView7"
@@ -129,7 +129,7 @@
         app:layout_constraintVertical_bias="0.505" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tv_regiter_signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"

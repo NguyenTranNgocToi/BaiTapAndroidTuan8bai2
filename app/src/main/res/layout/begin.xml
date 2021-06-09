@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_begin_signin"
         android:layout_width="207dp"
         android:layout_height="55dp"
         android:layout_marginStart="160dp"
@@ -67,15 +67,15 @@
       />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_begin_register"
         android:layout_width="207dp"
         android:layout_height="55dp"
         android:layout_marginTop="92dp"
         android:text="REGISTER"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/btn_begin_signin"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/btn_begin_signin"
+        app:layout_constraintTop_toBottomOf="@+id/btn_begin_signin"
         android:background="@drawable/bgregistervien"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

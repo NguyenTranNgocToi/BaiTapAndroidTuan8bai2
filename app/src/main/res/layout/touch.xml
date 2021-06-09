@@ -63,7 +63,7 @@
         app:srcCompat="@drawable/te" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_touch_finsh"
         android:layout_width="232dp"
         android:layout_height="54dp"
         android:layout_marginBottom="48dp"
